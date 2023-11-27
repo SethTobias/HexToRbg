@@ -1,0 +1,36 @@
+/* Custom Properties */
+:root {
+  --text: #0c0c0e;
+  --background: #f7f7f8;
+  --primary: #c7c4bd;
+  --secondary: #cdd0d5;
+  --accent: #746f63;
+}
+
+* {
+  color: var(--text);
+  text-align: center;
+}
+
+.mainDiv {
+  border: var(--accent) 5px double;
+}
+
+.mainHeading {
+  font-size: 2.5rem;
+}
+
+body {
+  background-color: var(--background);
+}
+
+.colorOut,
+.color {
+  background-color: var(--primary);
+  border-radius: 10px;
+  height: fit-content;
+  width: fit-content;
+  font-size: 2rem;
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+}
